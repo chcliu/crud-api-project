@@ -1,4 +1,4 @@
-This was created during my time as a student at Code Chrysalis.
+<p align="center">This was created during my time as a student at Code Chrysalis.</p>
 
 <p align="center"><img src="/logo.png" /></p>
 
