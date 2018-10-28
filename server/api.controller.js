@@ -76,4 +76,14 @@ module.exports = {
         }
     },
 
+    create() {
+        return async (req, res) => {
+            //It works but can definitely improve. 
+            //Currently only POSTs if all the keys are assigned and it can only take category and area IDs but no area or category names.
+            const newItem = req.body;
+            await knex("restaurants").insert(newItem).into("restaurants");
+            res.sendStatus(200);
+        }
+    }
+
 }
