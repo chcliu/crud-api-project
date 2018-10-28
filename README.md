@@ -1,8 +1,6 @@
 This was created during my time as a student at Code Chrysalis.
 
 ![banner](/logo.png)
-
-# TabeTree 
 A free API for restaurants in Japan around you using data from Tabelog.
 (Currently still in production. Will be updated with more restaurants and features.)
 
