@@ -1,6 +1,6 @@
-This was created during my time as a student at Code Chrysalis.
+<p align="center">This was created during my time as a student at Code Chrysalis.</p>
 
-![banner](/logo.png)
+<p align="center"><img src="/logo.png" /></p>
 
 A free API for restaurants in Japan using data from Tabelog.
 (Currently still in production. Will be updated with more restaurants and features.)
