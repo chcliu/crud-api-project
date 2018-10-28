@@ -1,8 +1,9 @@
 This was created during my time as a student at Code Chrysalis.
 
-TabeTree ~ A free API for restaurants in Japan around you using data from Tabelog.
-(Currently still in production. Will be updated with more restaurants and features.)
-
+#TabeTree 
+>A free API for restaurants in Japan around you using data from Tabelog.
+>(Currently still in production. Will be updated with more restaurants and features.)
+<hr>
 Future features:
 ~Looking for a restaurant based on budget
 ~Filter by ratings and rankings
@@ -10,10 +11,10 @@ Future features:
 ~Other data including telephone and store hours
 ~Ability to search by area
 ~And more!
-
+<hr>
 Here are the current features:
 
-GET
+#GET
 /categories
 ~Returns data on all of the categories.
 
@@ -41,17 +42,17 @@ GET
 /restaurants?id=SHAKE SHACK
 ~Returns data on a restaurant based on their name.
 
-POST 
+#POST 
 /restaurants
 ~Creates a new restaurant based on the inputted body parameters.
 Currently only able to work with all parameters filled.
 
-PUT
+#PUT
 /restaurants?id=#
 ~Updates the restaurant with the inputted id based on the inputted body parameters.
 
-DELETE
+#DELETE
 /restaurants?id=#
 ~Deletes the restaurant with the inputted id.
 
-Please send a message if you have any questions, feedback, or suggestions. Thank you.
+>Please send a message if you have any questions, feedback, or suggestions. Thank you.
