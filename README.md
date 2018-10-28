@@ -4,13 +4,21 @@ This was created during my time as a student at Code Chrysalis.
 ##### A free API for restaurants in Japan around you using data from Tabelog.
 ##### (Currently still in production. Will be updated with more restaurants and features.)
 <hr>
+
 ### Future features:
+
 - [ ] Looking for a restaurant based on budget
+
 - [ ] Filter by ratings and rankings
+
 - [ ] Prices for both lunch time and dinner time
+
 - [ ] Other data including telephone and store hours
+
 - [ ] Ability to search by area
+
 - [ ] And more!
+
 <hr>
 Here are the current features:
 
