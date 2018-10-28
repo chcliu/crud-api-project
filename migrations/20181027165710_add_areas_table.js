@@ -4,7 +4,7 @@ exports.up = function (knex, Promise) {
         t.increments()
             .index();
 
-        t.text("name")
+        t.text("area")
             .unique()
             .notNullable()
             .index();

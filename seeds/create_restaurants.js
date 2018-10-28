@@ -1,6 +1,7 @@
 const items = [
   {
-    name: "Kinnikushokudou (筋肉食堂)",
+    id: 1,
+    name: "Kinnikushokudou",
     area_id: 114, //Roppongi, Nogizaka, Nishi-Azabu
     category_id: 154, //"Natural food"
     budget: "￥1,000～￥1,999",
@@ -9,7 +10,8 @@ const items = [
     url: "https://tabelog.com/en/tokyo/A1307/A130701/13190115/"
   },
   {
-    name: "SHAKE SHACK (シェイク シャック 東京国際フォーラム店)",
+    id: 2,
+    name: "SHAKE SHACK",
     area_id: 154, //"Yurakucho, Hibiya"
     category_id: 68, //"Burger"
     budget: "￥1,000～￥1,999",
@@ -18,7 +20,8 @@ const items = [
     url: "https://tabelog.com/en/tokyo/A1301/A130102/13200310/"
   },
   {
-    name: "Shinohara (銀座 しのはら)",
+    id: 3,
+    name: "Shinohara",
     area_id: 25, //"Ginza"
     category_id: 1, //"Kaiseki (Traditional Japanese)"
     budget: "￥20,000～￥29,999",
@@ -27,7 +30,8 @@ const items = [
     url: "https://tabelog.com/en/tokyo/A1301/A130101/13200949/"
   },
   {
-    name: "Okonomiyakijamon (お好み焼き じゃもん)",
+    id: 4,
+    name: "Okonomiyakijamon",
     area_id: 128, //"Shinagawa"
     category_id: 40, //"Okonomiyaki"
     budget: "￥3,000～￥3,999",
