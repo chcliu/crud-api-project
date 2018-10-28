@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TabeTree</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <img src="logo.png">
+    <div class="main">
+        <p>A free API for restaurants in Japan using data from Tabelog. (Currently still in production. Will be updated
+            with more restaurants and features.)</p>
+    </div>
+    <div class="middle">
+        <ul><b>Future features:</b>
+            <li>Looking for a restaurant based on budget</li>
+            <li>Filter by ratings and rankings</li>
+
+            <li>Prices for both lunch time and dinner time</li>
+
+            <li>Other data including telephone and store hours</li>
+
+            <li>Ability to search by area</li>
+
+            <li>And more!</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="section">
+        <h3>Here are the current features:</h3>
+        <h2>GET</h2>
+        <code>/categories </code>
+        <p>Returns data on all of the categories.</p>
+
+        <code>/categories/id=10</code>
+        <p>Returns data on all of the categories based on id.</p>
+
+        <code>/categories/id=Burger</code>
+        <p>Returns data on all of the categories based on name.</p>
+
+        <code>/areas</code>
+        <p>Returns data on all of the available areas.</p>
+
+        <code>/areas?id=20</code>
+        <p>Returns data on available areas based on id.</p>
+
+        <code>/areas?name=Ginza</code>
+        <p>Returns data on available areas based on name.</p>
+
+        <code>/restaurants</code>
+        <p>Returns data on all of the restaurants in the database.</p>
+
+        <code>/restaurants?id=1</code>
+        <p>Returns data on a restaurant based on their id.</p>
+
+        <code>/restaurants?id=SHAKE SHACK</code>
+        <p>Returns data on a restaurant based on their name.</p>
+    </div>
+    <hr>
+    <div class="section">
+        <h2>POST</h2>
+        <code>/restaurants</code>
+        <p>Creates a new restaurant based on the inputted body parameters. Currently only able to work with all
+            parameters
+            filled.</p>
+    </div>
+    <hr>
+    <div class="section">
+        <h2>PUT</h2>
+        <code>/restaurants?id=#</code>
+        <p>Updates the restaurant with the inputted id based on the inputted body parameters.</p>
+    </div>
+    <hr>
+    <div class="section">
+        <h2>DELETE</h2>
+        <code>/restaurants?id=#</code>
+        <p>Deletes the restaurant with the inputted id.</p>
+    </div>
+    <br>
+    <div class="bottom">
+        <h4>Please send a message if you have any questions, feedback, or suggestions. Thank you.</h4>
+    </div>
+
+</body>
+
+</html>

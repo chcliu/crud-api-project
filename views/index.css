@@ -1,0 +1,28 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+img {
+    margin-left: 40%;
+}
+
+div {
+    margin-left: 15%
+}
+
+.bottom {
+    margin-left: 30%;
+}
+
+.middle {
+    margin-left: 35%;
+}
+
+code {
+    color:grey;
+}
