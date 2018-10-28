@@ -1,0 +1,225 @@
+Kaiseki (Traditional Japanese)
+Kappo (Traditional Japanese)
+Shojin Cuisine (Buddhist Cuisine)
+Kyoto Cuisine
+Sushi
+Kaitenzushi (Sushi Train)
+Standing style sushi
+Seafood
+Fugu (Blowfish)
+Crab
+Suppon (Soft-shelled Turtle)
+Angler
+Tempura
+Tonkatsu (Pork cutlet)
+Kushi-age (Fried Skewer)
+Boneless deep-fried chicken
+Fried Foods (other)
+Soba
+Standing style soba
+Udon
+Curry Udon
+Chow Mein Noodle
+Okinawa Soba (Okinawa Noodle)
+Hoto (Noodle)
+Champon Noodle
+Noodles (other)
+Unagi (Freshwater eel)
+Dojo (Loach)
+Anago (Sea eel)
+Yakitori (Grilled chicken)
+Kushiyaki (Grilled skewer)
+Grilled tripe
+Grilled pork
+Fowl
+Chicken wings
+Sukiyaki
+Shabu Shabu (Japanese Steamboat)
+Pork Shabu Shabu
+Oden
+Okonomiyaki
+Monjya yaki
+Takoyaki
+Akashi yaki
+Okonomiyaki and takoyaki baked (other)
+Okinawan Cuisine
+Kiritanpo (pounded rice skewer)
+Regional Cuisine (Other)
+Gyu-don (Beef Bowl)
+Oyako-don (Chicken Bowl)
+Ten-don (Tempura Bowl)
+Katsu-don (Pork Cutlet Bowl)
+Seafood rice bowl
+Buta-don (Pork Bowl)
+Donburi (other)
+Tofu, Yuba
+Mugitoro (Grated yam and brown rice)
+Kamameshi (Clay pot rice)
+Tripe related dishes
+Whale dishes
+Gyutan (Beef tongue)
+Robatayaki
+Japanese food (other)
+Steak
+Hamburger Steak
+Teppan-yaki
+Pasta
+Pizza
+Burger
+Western Cuisine
+Hashed Beef Rice
+Omurice
+Stew
+Soup
+Croquette
+Western Food (Other)
+French
+Bistro
+Modern French
+Italian
+Spain
+Modern Spanish
+Mediterranean
+German
+Russian
+American
+California
+Oceanic Cuisine
+Hawaiian cuisine
+Western (Others)
+Chinese
+Dim sum
+Beijing Cuisine
+Shanghai Cuisine
+Cantonese Cuisine
+Sichuan Cuisine
+Taiwan Cuisine
+Dumplings
+Meat Buns, Chinese Buns
+Chinese Rice Porridge
+Dandan noodles
+Knife cut noodles
+Chinese noodles (other)
+Korean cuisine
+Cold noodles
+Thailand cooking
+Viet Nam cuisine
+Indonesia cuisine
+Singaporean cuisine
+Southeast Asian cuisine (and others)
+India cuisine
+Nepal cuisine
+Pakistani cuisine
+Sri Lanka cuisine
+South Asian cuisine (and others)
+Turkish dishes
+West Asian (other)
+Mexico cuisine
+Brazil cuisine
+Latin American cuisine (and others)
+African Cuisine
+Asian Cuisine, Ethnic Cuisine (others)
+Curry
+Curry Rice
+European-style Curry
+Indian Curry
+Thai Curry
+Soup Curry
+Curry (other)
+Yakiniku (BBQ Beef)
+Horumon (BBQ Offel)
+Genghis Khan
+Chanko-Nabe (Sumo Wrestlers Hot Pot)
+Udon Suki
+Motsu-Nabe (Offel Hot Pot)
+Mizutaki
+Chiritori-Nabe, Tecchyan-Nabe
+Chinese Hot Pot / Fire Pot
+Korean Hot Pot
+Thai suki
+Hot Pot (other)
+Izakaya (Tavern)
+Dining bar
+Stand Bar
+Bar
+Beer, beer restaurant
+Izakaya (other)
+Creative cuisine
+Innovative cuisine, Fusion cuisine
+Fusion food
+casual dining
+table d'hôte
+School cafeteria
+Company cafeteria
+Natural food
+medicinal foods
+Bento (Lunch box)
+Onigiri (Rice ball)
+Buffet style
+Delicatessen
+Seafood
+Oyster Bar
+Garlic dishes
+Vegetable dishes
+Beef dishes
+Pork dishes
+Meat dishes
+Sumibiyaki
+BBQ
+Other meat dishes
+Houseboat and cruising
+Restaurants (other)
+Ramen
+Abura soba
+Taiwan style mixed noodles
+Soupless Dandan noodles
+Tsukemen
+Cafe
+Authentic Café
+Coffee Shoppe
+Tea Shoppe
+China tea Shoppe
+Japan tea Shoppe
+Café (other)
+Bakery
+Sandwich Shop
+Bagel
+Bakery (other)
+Cake
+Chocolate
+Macaroon
+Baumkuchen
+Sweets (other)
+Japanese sweets
+Sweets
+Taiyaki & Oobanyaki (pastry with sweet red beans)
+Dorayaki
+Daifuku
+Senbei (Rice cracker)
+Chinese Pastry
+Ice cream
+Soft serve ice cream
+Shaved ice (snow cone)
+Crepes
+Parfait
+Fruit parlour
+Juice bar
+Pancake
+Donut
+French toast
+Acai bowl
+Sweets (and others)
+Bar
+Pub
+Lounge
+Wine bar
+Beer garden
+Beer Bar
+Sports Bar
+Nihonshu (Japanese sake)
+Shochu (Japanese spirits)
+Bar (other)
+Ryokan
+Auberge
+Auberge (other)
+Other
