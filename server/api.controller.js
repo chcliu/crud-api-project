@@ -73,6 +73,7 @@ module.exports = {
                 }
             }
             res.status(200).json(result);
+            return result;
         }
     },
 
@@ -82,6 +83,31 @@ module.exports = {
             //Currently only POSTs if all the keys are assigned and it can only take category and area IDs but no area or category names.
             const newItem = req.body;
             await knex("restaurants").insert(newItem).into("restaurants");
+            res.sendStatus(200);
+        }
+    },
+
+    update() {
+        return async (req, res) => {
+            const restaurantKeys = ["name", "address", "rating", "area_id", "category_id", "url", "budget"];
+            let obj = {};
+            for (let key in req.body) {
+                if (restaurantKeys.includes(key)) {
+                    obj[key] = req.body[key];
+                }
+            }
+            await knex('restaurants')
+                .where({ "id": req.query.id })
+                .update(obj);
+            res.sendStatus(200);
+        }
+    },
+
+    delete() {
+        return async (req, res) => {
+            await knex('restaurants')
+                .where('id', req.query.id)
+                .del();
             res.sendStatus(200);
         }
     }

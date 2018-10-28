@@ -10,10 +10,12 @@ router.get('/areas', controller.read('areas'));
 router.get('/restaurants', controller.read('restaurants'))
 
 //POST
-// Post new restaurant
 router.post('/restaurants', controller.create());
+
 //PUT
-// Update restaurant information
+router.put('/restaurants', controller.update());
+
 // DELETE
-//Delete restaurant
+router.delete('/restaurants', controller.delete());
+
 module.exports = router;
