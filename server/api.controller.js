@@ -11,7 +11,7 @@ module.exports = {
             let restaurantTable = (table === 'restaurants');
             if (restaurantTable) {
                 // initialize result for restaurant
-                result = await knex(table)
+                result = await knex(table).select(['restaurants.*', 'areas.area', 'categories.category'])
                     .innerJoin("categories", "categories.id", "=", "restaurants.category_id")
                     .innerJoin(
                         "areas",
@@ -19,30 +19,32 @@ module.exports = {
                         "=",
                         "restaurants.area_id"
                     )
-                    .select().map(restaurant => new Restaurant(restaurant));
-                console.log("FIRST TEST POINT", result);
+                    .map(restaurant => new Restaurant(restaurant));
             }
             else {
                 // initialize result for categories or areas
                 result = await knex(table)
                     .select();
             }
-            if (this.hasQuery()) {
+            if (Object.keys(req.query).length) {
                 // set key for easy identification
                 const key = Object.keys(req.query)[0];
 
                 if (key === "id") {
 
                     if (restaurantTable) {
-                        result = await knex(table)
+                        result = await knex(table).select(['restaurants.*', 'areas.area', 'categories.category'])
                             .innerJoin("categories", "categories.id", "=", "restaurants.category_id")
                             .innerJoin(
                                 "areas",
                                 "areas.id",
                                 "=",
                                 "restaurants.area_id"
-                            ).where({ id: req.query[key] })
-                            .select();
+                            )
+                            .where({ "restaurants.id": req.query[key] })
+                            .map(restaurant => {
+                                return new Restaurant(restaurant);
+                            });
                     }
                     else result = await knex(table).select()
                         .where({ id: req.query[key] });
@@ -50,7 +52,7 @@ module.exports = {
                 else if (key === "name") {
 
                     if (restaurantTable) {
-                        result = await knex(table)
+                        result = await knex(table).select(['restaurants.*', 'areas.area', 'categories.category'])
                             .innerJoin("categories", "categories.id", "=", "restaurants.category_id")
                             .innerJoin(
                                 "areas",
@@ -58,8 +60,9 @@ module.exports = {
                                 "=",
                                 "restaurants.area_id"
                             ).where({ name: req.query[key] })
-                            .select();
-                        console.log("MAIN TEST POINT", result);
+                            .map(restaurant => {
+                                return new Restaurant(restaurant);
+                            });
                     }
                     else result = await knex(table).select()
                         .where({ name: req.query[key] });
@@ -69,15 +72,7 @@ module.exports = {
                     return;
                 }
             }
-            console.log("NEAR END", result);
             res.status(200).json(result);
-        }
-    },
-
-    hasQuery() {
-        return (req, res) => {
-            if (Object.keys(req.query).length) return true;
-            else return false;
         }
     },
 

@@ -1,6 +1,6 @@
 const items = [
   {
-    id: 1,
+    // id: 1,
     name: "Kinnikushokudou",
     area_id: 114, //Roppongi, Nogizaka, Nishi-Azabu
     category_id: 154, //"Natural food"
@@ -10,7 +10,7 @@ const items = [
     url: "https://tabelog.com/en/tokyo/A1307/A130701/13190115/"
   },
   {
-    id: 2,
+    // id: 2,
     name: "SHAKE SHACK",
     area_id: 154, //"Yurakucho, Hibiya"
     category_id: 68, //"Burger"
@@ -20,7 +20,7 @@ const items = [
     url: "https://tabelog.com/en/tokyo/A1301/A130102/13200310/"
   },
   {
-    id: 3,
+    // id: 3,
     name: "Shinohara",
     area_id: 25, //"Ginza"
     category_id: 1, //"Kaiseki (Traditional Japanese)"
@@ -30,7 +30,7 @@ const items = [
     url: "https://tabelog.com/en/tokyo/A1301/A130101/13200949/"
   },
   {
-    id: 4,
+    // id: 4,
     name: "Okonomiyakijamon",
     area_id: 128, //"Shinagawa"
     category_id: 40, //"Okonomiyaki"

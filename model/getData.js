@@ -19,7 +19,6 @@ getData = async function (input) {
             return text.toString("utf-8").split('\r\n')
                 .map((data, index) => {
                     const obj = {};
-                    obj.id = index + 1;
                     obj[key] = data;
                     return obj;
                 });

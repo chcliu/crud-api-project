@@ -11,8 +11,6 @@ router.get('/categories', controller.read('categories'));
 router.get('/areas', controller.read('areas'));
 // Show all restaurants
 router.get('/restaurants', controller.read('restaurants'))
-// Get restaurant by id
-// DONE
 // Get restaurant by name
 // DONE
 // Get restaurant information (address, url, budget);
