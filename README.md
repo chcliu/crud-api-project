@@ -15,7 +15,7 @@ Future features:
 Here are the current features:
 
 #GET
->/categories
+>/categories\n
 Returns data on all of the categories.
 
 >/categories/id=10
