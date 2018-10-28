@@ -1,6 +1,7 @@
 This was created during my time as a student at Code Chrysalis.
 
-![banner](/logo.png)
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[/logo.png]]
 
 A free API for restaurants in Japan using data from Tabelog.
 (Currently still in production. Will be updated with more restaurants and features.)
